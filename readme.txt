@@ -30,7 +30,7 @@ Following are the unique features of this plugin:-
 For more info, check out [this tutorial](http://www.superwebtricks.com/blogger-beginner-guide/facebook-page-wordpress-plugin/ "Details about Showeblogin Facebook Page Plugin widget for WordPress sites").
 
 == Installation ==
-You may either Install **Showeblogin Facebook Page Plugin** either via the WordPress.org plugin directory, or by uploading the files to your server.
+You may Install **Showeblogin Facebook Page Plugin** either via the WordPress.org plugin directory, or by uploading the files to your server.
 
 = From your WordPress site Dashboard =
 
