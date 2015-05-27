@@ -29,6 +29,9 @@ Following are the unique features of this plugin:-
 = Further Reading =
 For more info, check out [this tutorial](http://www.superwebtricks.com/blogger-beginner-guide/facebook-page-wordpress-plugin/ "Details about Showeblogin Facebook Page Plugin widget for WordPress sites").
 
+= Ratings & Reviews =
+Its my humble request that please [rate this plugin](https://wordpress.org/support/view/plugin-reviews/showeblogin-facebook-page-like-box "Please rate this plugin and submit a review") in accordance with your experince after using this plugin.
+
 == Installation ==
 You may Install **Showeblogin Facebook Page Plugin** either via the WordPress.org plugin directory, or by uploading the files to your server.
 
