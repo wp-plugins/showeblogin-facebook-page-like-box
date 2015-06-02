@@ -20,7 +20,7 @@ This plugin works with the responsive, fluid and static layouts and lets you eas
 = Features =
 Following are the unique features of this plugin:-
 
-* Show Like box for any Facebook Page.
+* Show FB Like box for any Facebook Page.
 * Change the width and height in accordance with your website.
 * Show/Hide Facebook page Header Cover Photo.
 * Show/Hide Facebook profile photos when friends like your FB page.
