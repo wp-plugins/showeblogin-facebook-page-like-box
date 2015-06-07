@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Brings the power of simplicity to display or embed Facebook Page Plugin (Like Box) widgets into your WordPress website by using latest Graph API v2.3.
 
 == Description ==
-As we know that the Facebook Like Box plugin is deprecated and therefore you all have to manually upgrade your FB like box to the Page Plugin. If not, your Like Box plugin implementation will automatically fall back to the Page Plugin with effect from June 23rd 2015.
+As we know that the Facebook Like Box plugin is deprecated and therefore you all have to manually upgrade your FB like box to the Page Plugin. If not, your facebook Like Box plugin implementation will automatically fall back to the Page Plugin with effect from June 23rd 2015.
 
 The **Showeblogin Facebook Page Plugin** is a special version of the Like box designed only for *Facebook Pages*. It allows WordPress admins to promote their Facebook Pages and embed a simple feed of content from a Page into websites by inserting widget in the sidebar or footer.
 
