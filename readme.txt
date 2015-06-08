@@ -24,7 +24,7 @@ Following are the unique features of this plugin:-
 * Change the width and height in accordance with your website.
 * Show/Hide Facebook page Header Cover Photo.
 * Show/Hide Facebook profile photos when friends like your FB page.
-* Show/Hide latest posts from the Page's timeline.
+* Show/Hide latest posts from your facebbok Page's timeline.
 
 = Further Reading =
 For more info, check out [this tutorial](http://www.superwebtricks.com/blogger-beginner-guide/facebook-page-wordpress-plugin/ "Details about Showeblogin Facebook Page Plugin widget for WordPress sites").
