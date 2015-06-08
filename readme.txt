@@ -15,7 +15,7 @@ As we know that the Facebook Like Box plugin is deprecated and therefore you all
 
 The **Showeblogin Facebook Page Plugin** is a special version of the Like box designed only for *Facebook Pages*. It allows WordPress admins to promote their Facebook Pages and embed a simple feed of content from a Page into websites by inserting widget in the sidebar or footer.
 
-This plugin works with the responsive, fluid and static layouts and lets you easily embed and promote any Facebook Page besides yours own on your WordPress website. With the help of this plugin, your live visitors can like, comment and share all your Facebook posts in addition to liking and sharing your Facebook Page to their friends without having to leave your site.
+This plugin works with the responsive, fluid and static layouts and lets you easily embed and promote any Facebook Page on your WordPress website. With the help of this plugin, your live visitors can like, comment and share all your Facebook posts in addition to liking and sharing your Facebook Page to their friends without having to leave your site.
 
 = Features =
 Following are the unique features of this plugin:-
