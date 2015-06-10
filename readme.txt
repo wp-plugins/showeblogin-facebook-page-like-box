@@ -29,7 +29,7 @@ Following are the unique features of this plugin:-
 * Show/Hide latest posts from your facebbok Page's timeline.
 
 = Further Reading =
-For more info, check out [this tutorial](http://www.superwebtricks.com/blogger-beginner-guide/facebook-page-wordpress-plugin/ "Details about Showeblogin Facebook Page Plugin widget for WordPress sites").
+If you have any query please ask us in [Support section](https://wordpress.org/support/plugin/showeblogin-facebook-page-like-box "Have you any Question?"). For more info, check out [this tutorial](http://www.superwebtricks.com/blogger-beginner-guide/facebook-page-wordpress-plugin/ "Details about Showeblogin Facebook Page Plugin widget for WordPress sites").
 
 = Ratings & Reviews =
 It's my humble request that please [rate this Facebook Page Plugin](https://wordpress.org/support/view/plugin-reviews/showeblogin-facebook-page-like-box "Please rate this plugin and submit a review") in accordance with your experince after using this plugin.
