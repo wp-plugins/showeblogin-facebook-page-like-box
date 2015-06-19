@@ -1,6 +1,6 @@
 === Showeblogin Facebook Page Plugin ===
 Contributors: Suresh Prasad
-Tags: Admin, WordPress, Widget, Facebook, Facepile, Like Box, FB Like Box, Facebook Feed, Facebook Page, Sidebar, Social, Plugin, Page
+Tags: Admin, WordPress, Widget, Facebook, Facepile, Like Box, FB Like Box, Facebook Feed, Facebook Page, Sidebar, Social, Showeblogin, Plugin, Page
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=spsmiter@gmail.com&item_name=Showeblogin%20Facebook%20Page%20Plugin
 Requires at least: 4.0
 Tested up to: 4.2.2
