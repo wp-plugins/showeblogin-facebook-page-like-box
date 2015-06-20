@@ -4,7 +4,7 @@ Tags: Admin, WordPress, Widget, Facebook, Facepile, Like Box, FB Like Box, Faceb
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=spsmiter@gmail.com&item_name=Showeblogin%20Facebook%20Page%20Plugin
 Requires at least: 4.0
 Tested up to: 4.2.2
-Stable tag: 4.2
+Stable tag: 2.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -75,6 +75,13 @@ Not yet asked. Will be updated soon (if any).
 5. Facebook Page Like Box with Header cover and Posts feed.
 
 == Changelog ==
+
+= 2.0 =
+* Added new feature to show Small Header.
+* Added new feature to Adapt to plugin container width.
+* Added new feature to Hide the custom call to action button (if available).
+
+= 1.0 =
 Initial release
 
 == Upgrade Notice ==

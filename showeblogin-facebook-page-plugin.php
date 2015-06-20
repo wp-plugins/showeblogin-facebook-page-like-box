@@ -3,7 +3,7 @@
 Plugin Name: Showeblogin Facebook Page Plugin
 Plugin URI: http://www.superwebtricks.com/blogger-beginner-guide/facebook-page-wordpress-plugin/
 Description: Brings the power of simplicity to display Facebook Page Plugin (Like Box) into your WordPress Site.
-Version: 1.0
+Version: 2.0
 Author: Suresh Prasad
 Author URI: http://www.superwebtricks.com
 License: GPLv3+
@@ -30,9 +30,12 @@ $swt_fb_page_defaults = array(
     'url' => 'https://www.facebook.com/SuperWebTricks',
     'width' => '340',
     'height' => '500',
+	'small_header' => 'false',
+	'data_adapt_container_width' => 'true',
+	'data_hide_cover' => 'false',
+	'data_hide_cta' => 'false',
     'show_faces' => 'true',
-    'stream' => 'false',
-    'data_hide_cover' => 'false'
+    'stream' => 'false',    
 );
 
 $theme->options['widgets_options']['facebook'] =  isset($theme->options['widgets_options']['facebook'])
@@ -59,6 +62,9 @@ class ShowebloginFacebookPagePlugin extends WP_Widget
         $url = $instance['url'];
         $width = $instance['width'];
         $height = $instance['height'];
+		$small_header = $instance['small_header'] == 'true' ? 'true' : 'false';
+		$data_adapt_container_width = $instance['data_adapt_container_width'] == 'true' ? 'true' : 'false';
+		$data_hide_cta = $instance['data_hide_cta'] == 'true' ? 'true' : 'false';
         $show_faces = $instance['show_faces'] == 'true' ? 'true' : 'false';
         $stream = $instance['stream'] == 'true' ? 'true' : 'false';
         $data_hide_cover = $instance['data_hide_cover'] == 'true' ? 'true' : 'false';
@@ -70,7 +76,7 @@ class ShowebloginFacebookPagePlugin extends WP_Widget
 			if (d.getElementById(id)) return;
 			js = d.createElement(s); js.id = id;
 			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
-			fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-page" data-href="<?php echo $url; ?>" data-hide-cover="<?php echo $data_hide_cover; ?>" data-show-facepile="<?php echo $show_faces; ?>" data-show-posts="<?php echo $stream; ?>" data-width="<?php echo $width; ?>" data-height="<?php echo $height; ?>"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/SuperWebTricks"><a href="https://www.facebook.com/SuperWebTricks">Showeblogin</a></blockquote></div></div>            
+			fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-page" data-href="<?php echo $url; ?>" small-header="<?php echo $small_header; ?>" data-adapt-container-width="<?php echo $data_adapt_container_width; ?>" data-hide-cta="<?php echo $data_hide_cta; ?>" data-hide-cover="<?php echo $data_hide_cover; ?>" data-show-facepile="<?php echo $show_faces; ?>" data-show-posts="<?php echo $stream; ?>" data-width="<?php echo $width; ?>" data-height="<?php echo $height; ?>"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/SuperWebTricks"><a href="https://www.facebook.com/SuperWebTricks">Showeblogin</a></blockquote></div></div>            
         </li></ul>
      <?php
     }
@@ -82,6 +88,9 @@ class ShowebloginFacebookPagePlugin extends WP_Widget
         $instance['url'] = strip_tags($new_instance['url']);
         $instance['width'] = strip_tags($new_instance['width']);
         $instance['height'] = strip_tags($new_instance['height']);
+		$instance['small_header'] = strip_tags($new_instance['small_header']);
+		$instance['data_adapt_container_width'] = strip_tags($new_instance['data_adapt_container_width']);
+		$instance['data_hide_cta'] = strip_tags($new_instance['data_hide_cta']);
         $instance['show_faces'] = strip_tags($new_instance['show_faces']);
         $instance['stream'] = strip_tags($new_instance['stream']);
         $instance['data_hide_cover'] = strip_tags($new_instance['data_hide_cover']);
@@ -116,6 +125,27 @@ class ShowebloginFacebookPagePlugin extends WP_Widget
                     </tr>
                     
                     <tr>
+                        <td class="swt-fb-page-widget-label">Adapt Container Width:</td>
+                        <td class="swt-fb-page-widget-content">
+							<input type="checkbox" name="<?php echo $this->get_field_name('data_adapt_container_width'); ?>"  <?php checked('true', $instance['data_adapt_container_width']); ?> value="true" />  <?php _e('Fit to Widget Width', 'spsmiter'); ?>                 
+                        </td>
+                    </tr>
+					
+					<tr>
+                        <td class="swt-fb-page-widget-label">Call to Action:</td>
+                        <td class="swt-fb-page-widget-content">
+							<input type="checkbox" name="<?php echo $this->get_field_name('data_hide_cta'); ?>"  <?php checked('true', $instance['data_hide_cta']); ?> value="true" />  <?php _e('Hide Call to Action Button', 'spsmiter'); ?>                     
+                        </td>
+                    </tr>
+					
+					<tr>
+                        <td class="swt-fb-page-widget-label">Small Header:</td>
+                        <td class="swt-fb-page-widget-content">
+							<input type="checkbox" name="<?php echo $this->get_field_name('small_header'); ?>"  <?php checked('true', $instance['small_header']); ?> value="true" />  <?php _e('Show Small Header', 'spsmiter'); ?>                     
+                        </td>
+                    </tr>
+					
+					<tr>
                         <td class="swt-fb-page-widget-label">Header Cover:</td>
                         <td class="swt-fb-page-widget-content">
 							<input type="checkbox" name="<?php echo $this->get_field_name('data_hide_cover'); ?>"  <?php checked('true', $instance['data_hide_cover']); ?> value="true" />  <?php _e('Hide Header Cover Photo', 'spsmiter'); ?>                     
