@@ -24,11 +24,14 @@ Now, you may also create call to action button next to like button in your Faceb
 = Features =
 Following are the unique features of this plugin:-
 
+* Show/Hide Small Header.
+* Adapt to plugin container width.
 * Show FB Like box for any Facebook Page.
-* Change the width and height in accordance with your website.
 * Show/Hide Facebook page Header Cover Photo.
+* Show/Hide latest posts from Facebook Page's timeline.
+* Show/Hide the custom call to action button (if available).
+* Change the width and height in accordance with your website.
 * Show/Hide Facebook profile photos when friends like your FB page.
-* Show/Hide latest posts from your facebbok Page's timeline.
 
 = Further Reading =
 If you have any query please ask us in [Support section](https://wordpress.org/support/plugin/showeblogin-facebook-page-like-box "Have you any Question?"). For more info, check out [this tutorial](http://www.superwebtricks.com/blogger-beginner-guide/facebook-page-wordpress-plugin/ "Details about Showeblogin Facebook Page Plugin widget for WordPress sites").
