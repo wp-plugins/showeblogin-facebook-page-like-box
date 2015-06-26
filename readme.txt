@@ -74,8 +74,9 @@ Not yet asked. Will be updated soon (if any).
 1. Activate Showeblogin Facebook Page Plugin
 2. Ready to add Facebook Page Like Box
 3. Customization
-4. Facebook Like Box without Header cover and stream
-5. Facebook Page Like Box with Header cover and Posts feed.
+4. Facebook Like Box with Small Header
+5. Facebook Like Box without Header cover and stream
+6. Facebook Page Like Box with Header cover and Posts feed.
 
 == Changelog ==
 
