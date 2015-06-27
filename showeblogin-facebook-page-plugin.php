@@ -70,6 +70,7 @@ class ShowebloginFacebookPagePlugin extends WP_Widget
         $data_hide_cover = $instance['data_hide_cover'] == 'true' ? 'true' : 'false';
         ?>
         <div id="widget-container"><div class="facebook-widget">
+		<!-- Showeblogin Facebook Page Plugin v2.0 - https://wordpress.org/plugins/showeblogin-facebook-page-like-box/ -->
         <?php  if ( $title ) {  ?> <h3 class="widgettitle"><?php echo $title; ?></h3> <?php }  ?>
             <div id="fb-root"></div><script>(function(d, s, id) {
 			var js, fjs = d.getElementsByTagName(s)[0];
@@ -77,7 +78,8 @@ class ShowebloginFacebookPagePlugin extends WP_Widget
 			js = d.createElement(s); js.id = id;
 			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
 			fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-page" data-href="<?php echo $url; ?>" small-header="<?php echo $small_header; ?>" data-adapt-container-width="<?php echo $data_adapt_container_width; ?>" data-hide-cta="<?php echo $data_hide_cta; ?>" data-hide-cover="<?php echo $data_hide_cover; ?>" data-show-facepile="<?php echo $show_faces; ?>" data-show-posts="<?php echo $stream; ?>" data-width="<?php echo $width; ?>" data-height="<?php echo $height; ?>"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/SuperWebTricks"><a href="https://www.facebook.com/SuperWebTricks">Showeblogin</a></blockquote></div></div>            
-        </div></div>
+			</div><!-- Showeblogin Facebook Page Plugin HELP - http://www.superwebtricks.com/blogger-beginner-guide/facebook-page-wordpress-plugin/ -->
+		   </div>
      <?php
     }
 
