@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Brings the power of simplicity to display or embed Facebook Page Plugin (Like Box) widgets into your WordPress website by using latest Graph API v2.3.
 
 == Description ==
-As we know that the Facebook Like Box plugin is deprecated and therefore you all have to manually upgrade your FB like box to the Page Plugin. If not, your facebook Like Box plugin implementation will automatically fall back to the Page Plugin with effect from June 23rd 2015.
+As we know that the Facebook Like Box plugin is deprecated and your Facebook Like Box plugin implementation has been automatically fall back to the Page Plugin with effect from June 23rd 2015.
 
 You can't ignore the power of more than 1.45 billion monthly active users on Facebook. So, its time to promote your websites on facebook.com and increase your site users on social media. Facebook like box is one of the most important part of social optimization.
 
