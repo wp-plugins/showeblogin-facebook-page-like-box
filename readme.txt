@@ -41,7 +41,7 @@ If you have any query please ask us in [Support section](https://wordpress.org/s
 It's my humble request that please [rate this Facebook Page Plugin](https://wordpress.org/support/view/plugin-reviews/showeblogin-facebook-page-like-box "Please rate this plugin and submit a review") in accordance with your experince after using this plugin.
 
 == Installation ==
-You may Install **Showeblogin Facebook Page Plugin** either via the WordPress.org plugin directory, or by uploading the files to your server.
+You may Install **Showeblogin Facebook Page Plugin** either via the WordPress.org plugin directory or by uploading the files to your server.
 
 = From your WordPress site Dashboard =
 
