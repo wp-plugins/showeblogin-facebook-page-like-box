@@ -13,7 +13,7 @@ Brings the power of simplicity to display or embed Facebook Page Plugin (Like Bo
 == Description ==
 As we know that Facebook Like Box plugin is deprecated and all Facebook Like Box plugin implementation has been automatically fall back to the Page Plugin with effect from 23rd June, 2015.
 
-You can't ignore the power of more than 1.45 billion monthly active users on Facebook. So, its time to promote your websites on facebook.com and increase your site users on social media. Facebook like box is one of the most important part of social optimization.
+You can't ignore the power of more than 1.45 billion monthly active users on Facebook. So, its time to promote your websites on Facebook and increase your site users on social media. Facebook like box is one of the most important part of social optimization.
 
 The **Showeblogin Facebook Page Plugin** is a special version of Facebook Like box designed only for *Facebook Pages*. It allows WordPress admins to promote their Facebook Pages and embed a simple feed of content from a Page into websites by inserting widget in the sidebar or footer.
 
