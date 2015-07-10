@@ -31,7 +31,7 @@ Following are the unique features of this plugin:-
 * Show/Hide latest posts from Facebook Page's timeline.
 * Show/Hide the custom call to action button (if available).
 * Change the width and height in accordance with your website.
-* Show/Hide Facebook profile photos when friends like your FB page.
+* Show/Hide Facebook profile photos when friends like your facebook page.
 * Add Facebook page to any widget area of WordPress sites with custom features.
 
 = Further Reading =
