@@ -104,67 +104,57 @@ class ShowebloginFacebookPagePlugin extends WP_Widget
         global $theme;
 		$instance = wp_parse_args( (array) $instance, $theme->options['widgets_options']['facebook'] );
         
-        ?>
-        
+        ?>        
             <div class="swt-fb-page-widget">
                 <table width="100%">
                     <tr>
                         <td class="swt-fb-page-widget-label" width="30%"><label for="<?php echo $this->get_field_id('title'); ?>">Title:</label></td>
                         <td class="swt-fb-page-widget-content" width="70%"><input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($instance['title']); ?>" /></td>
-                    </tr>
-                    
+                    </tr>                    
                     <tr>
                         <td class="swt-fb-page-widget-label"><label for="<?php echo $this->get_field_id('url'); ?>">Facebook Page URL:</label></td>
                         <td class="swt-fb-page-widget-content"><input class="widefat" id="<?php echo $this->get_field_id('url'); ?>" name="<?php echo $this->get_field_name('url'); ?>" type="text" value="<?php echo esc_attr($instance['url']); ?>" /></td>
-                    </tr>
-                    
+                    </tr>                    
                     <tr>
                         <td class="swt-fb-page-widget-label">Sizes:</td>
                         <td class="swt-fb-page-widget-content">
                             Width: <input type="text" style="width: 50px;" name="<?php echo $this->get_field_name('width'); ?>" value="<?php echo esc_attr($instance['width']); ?>" /> px. &nbsp; &nbsp;
                             Height: <input type="text" style="width: 50px;" name="<?php echo $this->get_field_name('height'); ?>" value="<?php echo esc_attr($instance['height']); ?>" /> px.
                         </td>
-                    </tr>
-                    
+                    </tr>                    
                     <tr>
                         <td class="swt-fb-page-widget-label">Adapt Container Width:</td>
                         <td class="swt-fb-page-widget-content">
 							<input type="checkbox" name="<?php echo $this->get_field_name('data_adapt_container_width'); ?>"  <?php checked('true', $instance['data_adapt_container_width']); ?> value="true" />  <?php _e('Fit to Widget Width', 'spsmiter'); ?>                 
                         </td>
-                    </tr>
-					
+                    </tr>					
 					<tr>
                         <td class="swt-fb-page-widget-label">Call to Action:</td>
                         <td class="swt-fb-page-widget-content">
 							<input type="checkbox" name="<?php echo $this->get_field_name('data_hide_cta'); ?>"  <?php checked('true', $instance['data_hide_cta']); ?> value="true" />  <?php _e('Hide Call to Action Button', 'spsmiter'); ?>                     
                         </td>
-                    </tr>
-					
+                    </tr>					
 					<tr>
                         <td class="swt-fb-page-widget-label">Small Header:</td>
                         <td class="swt-fb-page-widget-content">
 							<input type="checkbox" name="<?php echo $this->get_field_name('small_header'); ?>"  <?php checked('true', $instance['small_header']); ?> value="true" />  <?php _e('Show Small Header', 'spsmiter'); ?>                     
                         </td>
-                    </tr>
-					
+                    </tr>					
 					<tr>
                         <td class="swt-fb-page-widget-label">Header Cover:</td>
                         <td class="swt-fb-page-widget-content">
 							<input type="checkbox" name="<?php echo $this->get_field_name('data_hide_cover'); ?>"  <?php checked('true', $instance['data_hide_cover']); ?> value="true" />  <?php _e('Hide Header Cover Photo', 'spsmiter'); ?>                     
                         </td>
                     </tr>
-
                     <tr>
                         <td class="swt-fb-page-widget-label">Misc Options:</td>
                         <td class="swt-fb-page-widget-content">
                             <input type="checkbox" name="<?php echo $this->get_field_name('show_faces'); ?>"  <?php checked('true', $instance['show_faces']); ?> value="true" />  <?php _e('Show Faces', 'spsmiter'); ?>
                             <br /><input type="checkbox" name="<?php echo $this->get_field_name('stream'); ?>"  <?php checked('true', $instance['stream']); ?> value="true" />  <?php _e('Show Stream', 'spsmiter'); ?>  
                         </td>
-                    </tr>
-                    
+                    </tr>                    
                 </table>
-            </div>
-            
+            </div>            
         <?php 
     }
 } 
