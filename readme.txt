@@ -3,7 +3,7 @@ Contributors: Suresh Prasad
 Tags: Activity Feed, Admin, Facebook, Facebook Badge, Facebook Fan Page, Facebook Feed, Facebook Like Box, Facebook Page, Facebook Page Plugin, Facebook Sidebar, Feeds, Like Box, Plugin, Showeblogin, Sidebar, Social, Social Plugins, Sharing, Widget, WordPress
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=spsmiter@gmail.com&item_name=Showeblogin%20Facebook%20Page%20Plugin
 Requires at least: 4.0
-Tested up to: 4.2.2
+Tested up to: 4.3
 Stable tag: 2.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html

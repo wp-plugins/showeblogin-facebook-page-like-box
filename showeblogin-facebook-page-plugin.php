@@ -50,7 +50,7 @@ class ShowebloginFacebookPagePlugin extends WP_Widget
     {
         $widget_options = array('description' => __('Showeblogin Facebook Page Plugin social widget. Enables Facebook Page owners to attract and gain Likes and share from their own website.', 'spsmiter') );
         $control_options = array( 'width' => 440);
-		$this->WP_Widget('spsmiter_facebook', '&raquo; Facebook Page Like Box', $widget_options, $control_options);
+		parent::__construct('spsmiter_facebook', '&raquo; Facebook Page Like Box', $widget_options, $control_options);
     }
 
     function widget($args, $instance)
